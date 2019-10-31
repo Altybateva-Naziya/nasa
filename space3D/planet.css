@@ -1,0 +1,120 @@
+.mercury-orbit{
+   height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    position: fixed;
+    left: calc(50vw - 147px);
+    top:  calc(50vh - 147px);
+    border: 2px solid hsla(0, 0%, 100%, 0.12);
+}
+.mercury{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    top:  calc(50vh - 20px);
+    left: calc(50vw - 20px);
+    animation: circle 6s linear infinite;
+}
+.venus-orbit{
+   height: 390px;
+    width: 390px;
+    border-radius: 50%;
+    position: fixed;
+    left: calc(50vw - 197px);
+    top:  calc(50vh - 197px);
+    border: 2px solid hsla(0, 0%, 100%, 0.12);
+}
+.venus{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top:  calc(50vh - 25px);
+    left: calc(50vw - 25px);
+    animation: circle1 6s linear infinite;
+}
+.earth-orbit{
+   height: 510px;
+    width: 510px;
+    border-radius: 50%;
+    position: fixed;
+    left: calc(50vw - 257px);
+    top:  calc(50vh - 257px);
+    border: 2px solid hsla(0, 0%, 100%, 0.12);
+}
+.earth{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    top:  calc(50vh - 30px);
+    left: calc(50vw - 30px);
+    animation: circle2 6s linear infinite;
+}
+.mars-orbit{
+   height: 630px;
+    width: 630px;
+    border-radius: 50%;
+    position: fixed;
+    left: calc(50vw - 317px);
+    top:  calc(50vh - 317px);
+    border: 2px solid hsla(0, 0%, 100%, 0.12);
+}
+.mars{
+    height: 46px;
+    width: 46px;
+    position: fixed;
+    top:  calc(50vh - 23px);
+    left: calc(50vw - 23px);
+    animation: circle3 6s linear infinite;
+}
+@keyframes circle{
+  0%{
+    transform:rotate(0deg)
+              translate(-147px)
+              rotate(0deg)
+
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-147px)
+              rotate(-360deg);
+  }
+}
+@keyframes circle1{
+  0%{
+    transform:rotate(0deg)
+              translate(-197px)
+              rotate(0deg)
+
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-197px)
+              rotate(-360deg);
+  }
+}
+@keyframes circle2{
+  0%{
+    transform:rotate(0deg)
+              translate(-257px)
+              rotate(0deg)
+
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-257px)
+              rotate(-360deg);
+  }
+}
+@keyframes circle3{
+  0%{
+    transform:rotate(0deg)
+              translate(-317px)
+              rotate(0deg)
+
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-317px)
+              rotate(-360deg);
+  }
+}
